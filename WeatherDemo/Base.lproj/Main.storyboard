@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vyp-7J-g4d">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyp-7J-g4d">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="fpb-se-ihv"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="k5Z-gz-Z4V"/>
@@ -52,7 +52,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="scrollView" destination="vyp-7J-g4d" id="YT9-f4-US4"/>
+                        <outlet property="pageControl" destination="WcJ-eG-SzF" id="UDl-Dg-D9M"/>
+                        <outlet property="weatherScrollView" destination="vyp-7J-g4d" id="YT9-f4-US4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
